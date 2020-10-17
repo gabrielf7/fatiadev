@@ -2,6 +2,7 @@
   "name": "react_test-simple",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gabrielf7.github.io/fatiadev",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -19,8 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "homepage": "https://gabrielf7.github.io/fatiadev"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
