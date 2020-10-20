@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/fatiadev/static/js/main.d8e0f41a.chunk.js",
-    "main.js.map": "/fatiadev/static/js/main.d8e0f41a.chunk.js.map",
+    "main.js": "/fatiadev/static/js/main.6ff86e10.chunk.js",
+    "main.js.map": "/fatiadev/static/js/main.6ff86e10.chunk.js.map",
     "runtime-main.js": "/fatiadev/static/js/runtime-main.ce90eff7.js",
     "runtime-main.js.map": "/fatiadev/static/js/runtime-main.ce90eff7.js.map",
-    "static/js/2.c7262fef.chunk.js": "/fatiadev/static/js/2.c7262fef.chunk.js",
-    "static/js/2.c7262fef.chunk.js.map": "/fatiadev/static/js/2.c7262fef.chunk.js.map",
+    "static/js/2.a808cbe3.chunk.js": "/fatiadev/static/js/2.a808cbe3.chunk.js",
+    "static/js/2.a808cbe3.chunk.js.map": "/fatiadev/static/js/2.a808cbe3.chunk.js.map",
     "index.html": "/fatiadev/index.html",
-    "precache-manifest.bd13dcba6bb1c1c5e59d1dd0fc214a33.js": "/fatiadev/precache-manifest.bd13dcba6bb1c1c5e59d1dd0fc214a33.js",
+    "precache-manifest.7100c323aaa67332a9a6057d270884da.js": "/fatiadev/precache-manifest.7100c323aaa67332a9a6057d270884da.js",
     "service-worker.js": "/fatiadev/service-worker.js",
-    "static/js/2.c7262fef.chunk.js.LICENSE.txt": "/fatiadev/static/js/2.c7262fef.chunk.js.LICENSE.txt"
+    "static/js/2.a808cbe3.chunk.js.LICENSE.txt": "/fatiadev/static/js/2.a808cbe3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ce90eff7.js",
-    "static/js/2.c7262fef.chunk.js",
-    "static/js/main.d8e0f41a.chunk.js"
+    "static/js/2.a808cbe3.chunk.js",
+    "static/js/main.6ff86e10.chunk.js"
   ]
 }
