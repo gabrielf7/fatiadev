@@ -2,9 +2,10 @@ import React from 'react';
 import Menu from './../components/menu.js';
 import Cards from './../components/cards.js';
 import Form from './../components/form.js';
+import Footer from './../components/footer.js';
 
 import { 
-  CssBaseline, Container, makeStyles
+  CssBaseline, Container, makeStyles,
 } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
@@ -24,6 +25,7 @@ const useStyles = makeStyles(() => ({
     marginBottom: '20px',
     boxShadow: '0 0 1em gold',
   },
+  
 }));
 
 export default function PageMain() {
@@ -34,12 +36,15 @@ export default function PageMain() {
       <CssBaseline />
       <div className={classes.root}>
         <Menu />
-        <Container maxWidth="lg" className={classes.containerMain}>
-          <Cards />
-          <Container maxWidth="lg" className={classes.containerO2}>
-            <Form />
+        <main>
+          <Container maxWidth="lg" className={classes.containerMain}>
+            <Cards />
+            <Container maxWidth="lg" className={classes.containerO2}>
+              <Form />
+            </Container>
           </Container>
-        </Container>
+        </main>
+        <Footer />
       </div>
     </div>
   );

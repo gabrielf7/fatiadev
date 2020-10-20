@@ -64,56 +64,59 @@ export default function Menu() {
 
   return(
     <div className="menu">
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            FatiaDev
-          </Typography>
-          <Button className={classes.buttonMain} variant="contained" color="secondary">
-            Home
-          </Button>
-          <Button className={classes.buttonMain} variant="contained" color="primary">
-            Develiry
-          </Button>
-          <Button className={classes.buttonMain} variant="contained" color="primary">
-            Cardápio
-          </Button>
-          <div>
-            <Button
-              className={classes.buttonMain} 
-              variant="contained" 
-              color="primary"
-              ref={anchorRef}
-              aria-controls={open ? 'menu-list-grow' : undefined}
-              aria-haspopup="true"
-              onClick={handleToggle}
-            >
-              Contato
+      <header>
+        <AppBar position="static">
+          <Toolbar>
+            <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+              <MenuIcon />
+            </IconButton>
+            <Typography variant="h6" className={classes.title}>
+              FatiaDev
+            </Typography>
+            <Button className={classes.buttonMain} variant="contained" color="secondary">
+              Home
             </Button>
-            <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
-              {({ TransitionProps, placement }) => (
-                <Grow
-                  {...TransitionProps}
-                  style={{ transformOrigin: placement === 'bottom' ? 'center top' : 'center bottom' }}
-                >
-                  <Paper>
-                    <ClickAwayListener onClickAway={handleClose}>
-                      <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
-                        <MenuItem onClick={handleClose}>Acessória</MenuItem>
-                        <MenuItem onClick={handleClose}>WhatsApp</MenuItem>
-                        <MenuItem onClick={handleClose}>Instagram</MenuItem>
-                      </MenuList>
-                    </ClickAwayListener>
-                  </Paper>
-                </Grow>
-              )}
-            </Popper>
-          </div>
-        </Toolbar>
-      </AppBar>
+            <Button className={classes.buttonMain} variant="contained" color="primary">
+              Develiry
+            </Button>
+            <Button className={classes.buttonMain} variant="contained" color="primary">
+              Cardápio
+            </Button>
+            <div>
+              <Button
+                className={classes.buttonMain} 
+                variant="contained" 
+                color="primary"
+                ref={anchorRef}
+                aria-controls={open ? 'menu-list-grow' : undefined}
+                aria-haspopup="true"
+                onClick={handleToggle}
+              >
+                Contato
+              </Button>
+              <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
+                {({ TransitionProps, placement }) => (
+                  <Grow
+                    {...TransitionProps}
+                    style={{ transformOrigin: placement === 'bottom' ? 'center top' : 'center bottom' }}
+                  >
+                    <Paper>
+                      <ClickAwayListener onClickAway={handleClose}>
+                        <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
+                          <MenuItem onClick={handleClose}>Acessória</MenuItem>
+                          <MenuItem onClick={handleClose}>WhatsApp</MenuItem>
+                          <MenuItem onClick={handleClose}>Instagram</MenuItem>
+                        </MenuList>
+                      </ClickAwayListener>
+                    </Paper>
+                  </Grow>
+                )}
+              </Popper>
+            </div>
+          </Toolbar>
+        </AppBar>
+
+      </header>
     </div>
   );
 }
