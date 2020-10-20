@@ -11,7 +11,7 @@ import {
 
 const useStyles = makeStyles(() => ({
   buttonSubmit: {
-    backgroundColor: blue['A200'],
+    backgroundColor: blue['900'],
     color: 'white',
     boxShadow: '0 0 1em gold',
   },

@@ -60,7 +60,7 @@ export default function Cards() {
         <Grid item xs={12}>
           <h1 style={{ textAlign: 'center' }} >Promoções</h1>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} item lg={4}>
           <Card className={classes.cardMain}>
             <CardHeader
               avatar={
@@ -119,7 +119,7 @@ export default function Cards() {
           </Card>
 
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} item lg={4}>
           <Card className={classes.cardMain}>
             <CardHeader
               avatar={
@@ -178,7 +178,7 @@ export default function Cards() {
           </Card>
           
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} item lg={4}>
           <Card className={classes.cardMain}>
             <CardHeader
               avatar={
