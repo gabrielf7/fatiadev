@@ -11,6 +11,10 @@ import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
 import Avatar from '@material-ui/core/Avatar';
 
+import Img1 from './../assets/new_shawarma.jpg';
+import Img2 from './../assets/shawarma_frango.jpg';
+import Img3 from './../assets/shawarma_imperatriz.jpg';
+
 //icons
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
@@ -60,7 +64,7 @@ export default function Cards() {
         <Grid item xs={12}>
           <h1 style={{ textAlign: 'center' }} >Promoções</h1>
         </Grid>
-        <Grid item xs={12} item lg={4}>
+        <Grid item xs={12} lg={4}>
           <Card className={classes.cardMain}>
             <CardHeader
               avatar={
@@ -82,7 +86,7 @@ export default function Cards() {
             />
             <CardMedia
               className={classes.media}
-              image="https://media-cdn.tripadvisor.com/media/photo-s/0f/df/5d/45/photo1jpg.jpg"
+              image={Img1}
               title="New Shawarma"
             />
             <CardContent>
@@ -119,7 +123,7 @@ export default function Cards() {
           </Card>
 
         </Grid>
-        <Grid item xs={12} item lg={4}>
+        <Grid item xs={12} lg={4}>
           <Card className={classes.cardMain}>
             <CardHeader
               avatar={
@@ -141,7 +145,7 @@ export default function Cards() {
             />
             <CardMedia
               className={classes.media}
-              image="https://www.hojetemfrango.com.br/wp-content/uploads/2019/02/shutterstock_475603981.jpg"
+              image={Img2}
               title="Shawarma de Frango"
             />
             <CardContent>
@@ -178,7 +182,7 @@ export default function Cards() {
           </Card>
           
         </Grid>
-        <Grid item xs={12} item lg={4}>
+        <Grid item xs={12} lg={4}>
           <Card className={classes.cardMain}>
             <CardHeader
               avatar={
@@ -200,7 +204,7 @@ export default function Cards() {
             />
             <CardMedia
               className={classes.media}
-              image="https://media-cdn.tripadvisor.com/media/photo-o/0f/f7/f7/60/img-20170720-wa0127-largejpg.jpg"
+              image={Img3}
               title="Shawarma Imperatriz"
             />
             <CardContent>
