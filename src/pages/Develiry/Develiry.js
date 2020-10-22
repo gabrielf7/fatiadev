@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../../components/menu.js';
+import Menu from './../../components/menu';
 
 export default function Develiry(){
   return(

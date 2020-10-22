@@ -1,11 +1,11 @@
 import React from 'react';
-import Menu from '../../components/menu.js';
-import Cards from '../../components/cards.js';
-import Form from '../../components/form.js';
-import Footer from '../../components/footer.js';
+import Menu from './../../components/menu';
+import Cards from './../../components/cards';
+import Form from './../../components/form';
+import Footer from './../../components/footer';
 
 import { 
-  Container, CssBaseline, makeStyles,
+  Container, makeStyles,
 } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
@@ -29,7 +29,6 @@ export default function Home() {
 
   return(
     <div>
-      <CssBaseline />
       <Menu />
       <main>
         <Container maxWidth="lg" className={classes.containerMain}>
