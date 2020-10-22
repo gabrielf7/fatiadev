@@ -67,59 +67,56 @@ export default function Menu() {
 
   return(
     <div className="menu">
-      <header>
-        <AppBar position="static">
-          <Toolbar>
-            <IconButton component={Link} to={HomeRT} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-              <MenuIcon />
-            </IconButton>
-            <Typography component={Link} to={HomeRT} variant="h6" className={classes.title}>
-              FatiaDev
-            </Typography>
-            <Button component={Link} to={HomeRT} className={classes.buttonMain} variant="contained" color="secondary">
-              Home
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton component={Link} to={HomeRT} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+            <MenuIcon />
+          </IconButton>
+          <Typography component={Link} to={HomeRT} variant="h6" className={classes.title}>
+            FatiaDev
+          </Typography>
+          <Button component={Link} to={HomeRT} className={classes.buttonMain} variant="contained" color="secondary">
+            Home
+          </Button>
+          <Button component={Link} to={CardapioRT} className={classes.buttonMain} variant="contained" color="primary">
+            Cardápio
+          </Button>
+          <Button component={Link} to={DeveliryRT} className={classes.buttonMain} variant="contained" color="primary">
+            Develiry
+          </Button>
+          <div>
+            <Button
+              className={classes.buttonMain} 
+              variant="contained" 
+              color="primary"
+              ref={anchorRef}
+              aria-controls={open ? 'menu-list-grow' : undefined}
+              aria-haspopup="true"
+              onClick={handleToggle}
+            >
+              Contato
             </Button>
-            <Button component={Link} to={CardapioRT} className={classes.buttonMain} variant="contained" color="primary">
-              Cardápio
-            </Button>
-            <Button component={Link} to={DeveliryRT} className={classes.buttonMain} variant="contained" color="primary">
-              Develiry
-            </Button>
-            <div>
-              <Button
-                className={classes.buttonMain} 
-                variant="contained" 
-                color="primary"
-                ref={anchorRef}
-                aria-controls={open ? 'menu-list-grow' : undefined}
-                aria-haspopup="true"
-                onClick={handleToggle}
-              >
-                Contato
-              </Button>
-              <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
-                {({ TransitionProps, placement }) => (
-                  <Grow
-                    {...TransitionProps}
-                    style={{ transformOrigin: placement === 'bottom' ? 'center top' : 'center bottom' }}
-                  >
-                    <Paper>
-                      <ClickAwayListener onClickAway={handleClose}>
-                        <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
-                          <MenuItem onClick={handleClose}>Acessória</MenuItem>
-                          <MenuItem onClick={handleClose}>WhatsApp</MenuItem>
-                          <MenuItem onClick={handleClose}>Instagram</MenuItem>
-                        </MenuList>
-                      </ClickAwayListener>
-                    </Paper>
-                  </Grow>
-                )}
-              </Popper>
-            </div>
-          </Toolbar>
-        </AppBar>
-
-      </header>
+            <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
+              {({ TransitionProps, placement }) => (
+                <Grow
+                  {...TransitionProps}
+                  style={{ transformOrigin: placement === 'bottom' ? 'center top' : 'center bottom' }}
+                >
+                  <Paper>
+                    <ClickAwayListener onClickAway={handleClose}>
+                      <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
+                        <MenuItem onClick={handleClose}>Acessória</MenuItem>
+                        <MenuItem onClick={handleClose}>WhatsApp</MenuItem>
+                        <MenuItem onClick={handleClose}>Instagram</MenuItem>
+                      </MenuList>
+                    </ClickAwayListener>
+                  </Paper>
+                </Grow>
+              )}
+            </Popper>
+          </div>
+        </Toolbar>
+      </AppBar>
     </div>
   );
 }

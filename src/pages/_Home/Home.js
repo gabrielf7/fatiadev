@@ -5,7 +5,7 @@ import Form from '../../components/form.js';
 import Footer from '../../components/footer.js';
 
 import { 
-  CssBaseline, Container, makeStyles,
+  Container, CssBaseline, makeStyles,
 } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
@@ -30,16 +30,16 @@ export default function Home() {
   return(
     <div>
       <CssBaseline />
-        <Menu />
-        <main>
-          <Container maxWidth="lg" className={classes.containerMain}>
-            <Cards />
-            <Container maxWidth="lg" className={classes.containerO2}>
-              <Form />
-            </Container>
+      <Menu />
+      <main>
+        <Container maxWidth="lg" className={classes.containerMain}>
+          <Cards />
+          <Container maxWidth="lg" className={classes.containerO2}>
+            <Form />
           </Container>
-        </main>
-        <Footer />
+        </Container>
+      </main>
+      <Footer />
     </div>
   );
 }
