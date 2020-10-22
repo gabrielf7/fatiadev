@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fatiadev/precache-manifest.94a796a775724cf12e908f8578d86f84.js"
+  "/fatiadev/precache-manifest.45f7d4525cea807909eb430c61f6a7a1.js"
 );
 
 self.addEventListener('message', (event) => {
