@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Home from './pages/_Home/Home';
-import Cardapio from './pages/Cardapio/Cardapio';
-import Delivery from './pages/Develiry/Develiry';
+import Home from './pages/Home/home';
+import Cardapio from './pages/Cardapio/cardapio';
+import Delivery from './pages/Delivery/delivery';
 
 export const HomeRT = "/";
 export const CardapioRT = "/cardapio";
