@@ -1,18 +1,14 @@
 import React from 'react';
-import Menu from './../components/menu.js';
-import Cards from './../components/cards.js';
-import Form from './../components/form.js';
-import Footer from './../components/footer.js';
+import Menu from '../../components/menu.js';
+import Cards from '../../components/cards.js';
+import Form from '../../components/form.js';
+import Footer from '../../components/footer.js';
 
 import { 
   CssBaseline, Container, makeStyles,
 } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
-  root: {
-    flexGrow: 1,
-  },
-  
   containerMain: {
     paddingTop: '25px',
   },
@@ -28,13 +24,12 @@ const useStyles = makeStyles(() => ({
   
 }));
 
-export default function PageMain() {
+export default function Home() {
   const classes = useStyles();
 
   return(
-    <div className="pageMain">
+    <div>
       <CssBaseline />
-      <div className={classes.root}>
         <Menu />
         <main>
           <Container maxWidth="lg" className={classes.containerMain}>
@@ -45,7 +40,6 @@ export default function PageMain() {
           </Container>
         </main>
         <Footer />
-      </div>
     </div>
   );
 }

@@ -1,10 +1,25 @@
 import React from 'react';
-import PageMain from './pages/pageMain';
+import Routers from './Router';
+
+import { 
+  makeStyles,
+} from '@material-ui/core';
+
+const useStyles = makeStyles(() => ({
+  root: {
+    flexGrow: 1,
+  },
+  
+}));
 
 export default function App() {
+  const classes = useStyles();
+
   return (
     <React.Fragment>
-      <PageMain />
+      <div className={classes.root}>
+        <Routers />
+      </div>
     </React.Fragment>
   );
 }

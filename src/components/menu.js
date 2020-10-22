@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { HomeRT, CardapioRT, DeveliryRT } from './../Router';
+
 import { 
   Button, AppBar, Toolbar, Typography, IconButton, makeStyles
 } from '@material-ui/core';
@@ -67,20 +70,20 @@ export default function Menu() {
       <header>
         <AppBar position="static">
           <Toolbar>
-            <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+            <IconButton component={Link} to={HomeRT} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6" className={classes.title}>
+            <Typography component={Link} to={HomeRT} variant="h6" className={classes.title}>
               FatiaDev
             </Typography>
-            <Button className={classes.buttonMain} variant="contained" color="secondary">
+            <Button component={Link} to={HomeRT} className={classes.buttonMain} variant="contained" color="secondary">
               Home
             </Button>
-            <Button className={classes.buttonMain} variant="contained" color="primary">
-              Develiry
-            </Button>
-            <Button className={classes.buttonMain} variant="contained" color="primary">
+            <Button component={Link} to={CardapioRT} className={classes.buttonMain} variant="contained" color="primary">
               Cardápio
+            </Button>
+            <Button component={Link} to={DeveliryRT} className={classes.buttonMain} variant="contained" color="primary">
+              Develiry
             </Button>
             <div>
               <Button

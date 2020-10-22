@@ -1,4 +1,5 @@
 a {
   text-decoration: none;
-  color:#04d361;
+  color: inherit;
+  /* #04d361 */
 }
