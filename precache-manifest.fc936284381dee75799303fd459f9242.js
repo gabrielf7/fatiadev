@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f209f2acfa658378dab40248b4ed508",
+    "revision": "b6dda1730e6df5ab6760ef2833dea959",
     "url": "/fatiadev/index.html"
   },
   {
-    "revision": "974e57dc3a25f027beb2",
+    "revision": "69d79c0b937dba55038e",
     "url": "/fatiadev/static/css/main.0524b630.chunk.css"
   },
   {
-    "revision": "3356be35b798ebd892f0",
-    "url": "/fatiadev/static/js/2.14adec27.chunk.js"
+    "revision": "3c90cdaed79c1f8c9e76",
+    "url": "/fatiadev/static/js/2.383854d8.chunk.js"
   },
   {
     "revision": "89b0379e7bcda1a468d8b0343aeb4e53",
-    "url": "/fatiadev/static/js/2.14adec27.chunk.js.LICENSE.txt"
+    "url": "/fatiadev/static/js/2.383854d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "974e57dc3a25f027beb2",
-    "url": "/fatiadev/static/js/main.f45a9493.chunk.js"
+    "revision": "69d79c0b937dba55038e",
+    "url": "/fatiadev/static/js/main.02ba6c8f.chunk.js"
   },
   {
-    "revision": "dc37945bb7095868b96d",
-    "url": "/fatiadev/static/js/runtime-main.ce90eff7.js"
+    "revision": "fc26233b3376e75c6b7b",
+    "url": "/fatiadev/static/js/runtime-main.e26da053.js"
   },
   {
     "revision": "96ee8755e122edab609a205491c6d9e6",
