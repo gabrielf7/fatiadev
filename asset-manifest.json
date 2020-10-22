@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fatiadev/static/css/main.0524b630.chunk.css",
-    "main.js": "/fatiadev/static/js/main.794caded.chunk.js",
-    "main.js.map": "/fatiadev/static/js/main.794caded.chunk.js.map",
+    "main.css": "/fatiadev/static/css/main.f56d4347.chunk.css",
+    "main.js": "/fatiadev/static/js/main.acc6a6e8.chunk.js",
+    "main.js.map": "/fatiadev/static/js/main.acc6a6e8.chunk.js.map",
     "runtime-main.js": "/fatiadev/static/js/runtime-main.e26da053.js",
     "runtime-main.js.map": "/fatiadev/static/js/runtime-main.e26da053.js.map",
     "static/js/2.383854d8.chunk.js": "/fatiadev/static/js/2.383854d8.chunk.js",
     "static/js/2.383854d8.chunk.js.map": "/fatiadev/static/js/2.383854d8.chunk.js.map",
     "index.html": "/fatiadev/index.html",
-    "precache-manifest.e53bf7f161c7cd8ddf00f242e7f21d3a.js": "/fatiadev/precache-manifest.e53bf7f161c7cd8ddf00f242e7f21d3a.js",
+    "precache-manifest.94a796a775724cf12e908f8578d86f84.js": "/fatiadev/precache-manifest.94a796a775724cf12e908f8578d86f84.js",
     "service-worker.js": "/fatiadev/service-worker.js",
-    "static/css/main.0524b630.chunk.css.map": "/fatiadev/static/css/main.0524b630.chunk.css.map",
+    "static/css/main.f56d4347.chunk.css.map": "/fatiadev/static/css/main.f56d4347.chunk.css.map",
     "static/js/2.383854d8.chunk.js.LICENSE.txt": "/fatiadev/static/js/2.383854d8.chunk.js.LICENSE.txt",
     "static/media/new_shawarma.jpg": "/fatiadev/static/media/new_shawarma.96ee8755.jpg",
     "static/media/shawarma_frango.jpg": "/fatiadev/static/media/shawarma_frango.83f19e67.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.e26da053.js",
     "static/js/2.383854d8.chunk.js",
-    "static/css/main.0524b630.chunk.css",
-    "static/js/main.794caded.chunk.js"
+    "static/css/main.f56d4347.chunk.css",
+    "static/js/main.acc6a6e8.chunk.js"
   ]
 }
