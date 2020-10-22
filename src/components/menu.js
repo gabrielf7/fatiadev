@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { HomeRT, CardapioRT, DeliveryRT } from './../Router';
+// import { HomeRT, CardapioRT, DeliveryRT } from './../Router';
 
 import { 
   Button, AppBar, Toolbar, Typography, IconButton, makeStyles
@@ -70,19 +70,19 @@ export default function Menu() {
     <div className="menu">
       <AppBar position="static">
         <Toolbar>
-          <IconButton component={Link} to={HomeRT} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+          <IconButton component={Link} to={process.env.PUBLIC_URL + '/'} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Typography component={Link} to={HomeRT} variant="h6" className={classes.title}>
+          <Typography component={Link} to={process.env.PUBLIC_URL + '/'} variant="h6" className={classes.title}>
             FatiaDev
           </Typography>
-          <Button component={Link} to={HomeRT} className={classes.buttonMain} variant="contained" color="secondary">
+          <Button component={Link} to={process.env.PUBLIC_URL + '/'} className={classes.buttonMain} variant="contained" color="secondary">
             Home
           </Button>
-          <Button component={Link} to={CardapioRT} className={classes.buttonMain} variant="contained" color="primary">
+          <Button component={Link} to={process.env.PUBLIC_URL + '/cardapio'} className={classes.buttonMain} variant="contained" color="primary">
             Cardápio
           </Button>
-          <Button component={Link} to={DeliveryRT} className={classes.buttonMain} variant="contained" color="primary">
+          <Button component={Link} to={process.env.PUBLIC_URL + '/cardapio/delivery'} className={classes.buttonMain} variant="contained" color="primary">
             Delivery
           </Button>
           <div>
