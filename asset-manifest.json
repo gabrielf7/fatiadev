@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fatiadev/static/css/main.0524b630.chunk.css",
-    "main.js": "/fatiadev/static/js/main.e1d4398b.chunk.js",
-    "main.js.map": "/fatiadev/static/js/main.e1d4398b.chunk.js.map",
+    "main.js": "/fatiadev/static/js/main.7061d346.chunk.js",
+    "main.js.map": "/fatiadev/static/js/main.7061d346.chunk.js.map",
     "runtime-main.js": "/fatiadev/static/js/runtime-main.e26da053.js",
     "runtime-main.js.map": "/fatiadev/static/js/runtime-main.e26da053.js.map",
     "static/js/2.2b0ca58b.chunk.js": "/fatiadev/static/js/2.2b0ca58b.chunk.js",
     "static/js/2.2b0ca58b.chunk.js.map": "/fatiadev/static/js/2.2b0ca58b.chunk.js.map",
     "index.html": "/fatiadev/index.html",
-    "precache-manifest.9af5efbcc2d7cde07107de104b85d07e.js": "/fatiadev/precache-manifest.9af5efbcc2d7cde07107de104b85d07e.js",
+    "precache-manifest.03aea512bbaf3f020ed5c47019cf4b75.js": "/fatiadev/precache-manifest.03aea512bbaf3f020ed5c47019cf4b75.js",
     "service-worker.js": "/fatiadev/service-worker.js",
     "static/css/main.0524b630.chunk.css.map": "/fatiadev/static/css/main.0524b630.chunk.css.map",
     "static/js/2.2b0ca58b.chunk.js.LICENSE.txt": "/fatiadev/static/js/2.2b0ca58b.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.e26da053.js",
     "static/js/2.2b0ca58b.chunk.js",
     "static/css/main.0524b630.chunk.css",
-    "static/js/main.e1d4398b.chunk.js"
+    "static/js/main.7061d346.chunk.js"
   ]
 }
