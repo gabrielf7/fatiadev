@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2811cf7ae292a8c5add2670b9d77da0",
+    "revision": "ed08c47eb3b8b239b58f9e699b01a6e9",
     "url": "/fatiadev/index.html"
   },
   {
-    "revision": "0d43e039e6a00bfeb7ae",
+    "revision": "16dbd232c36149d6c52a",
     "url": "/fatiadev/static/css/main.0524b630.chunk.css"
   },
   {
-    "revision": "0912b0326156fe282a0b",
-    "url": "/fatiadev/static/js/2.2b0ca58b.chunk.js"
+    "revision": "3c90cdaed79c1f8c9e76",
+    "url": "/fatiadev/static/js/2.383854d8.chunk.js"
   },
   {
     "revision": "89b0379e7bcda1a468d8b0343aeb4e53",
-    "url": "/fatiadev/static/js/2.2b0ca58b.chunk.js.LICENSE.txt"
+    "url": "/fatiadev/static/js/2.383854d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d43e039e6a00bfeb7ae",
-    "url": "/fatiadev/static/js/main.4d92bc07.chunk.js"
+    "revision": "16dbd232c36149d6c52a",
+    "url": "/fatiadev/static/js/main.794caded.chunk.js"
   },
   {
     "revision": "fc26233b3376e75c6b7b",
