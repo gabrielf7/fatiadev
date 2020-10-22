@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { HomeRT, CardapioRT, DeveliryRT } from './../Router';
+import { HomeRT, CardapioRT, DeliveryRT } from './../Router';
 
 import { 
   Button, AppBar, Toolbar, Typography, IconButton, makeStyles
@@ -19,6 +19,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
+    color: 'inherit',
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -81,8 +82,8 @@ export default function Menu() {
           <Button component={Link} to={CardapioRT} className={classes.buttonMain} variant="contained" color="primary">
             Cardápio
           </Button>
-          <Button component={Link} to={DeveliryRT} className={classes.buttonMain} variant="contained" color="primary">
-            Develiry
+          <Button component={Link} to={DeliveryRT} className={classes.buttonMain} variant="contained" color="primary">
+            Delivery
           </Button>
           <div>
             <Button

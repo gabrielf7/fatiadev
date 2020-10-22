@@ -3,11 +3,11 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Home from './pages/_Home/Home';
 import Cardapio from './pages/Cardapio/Cardapio';
-import Develiry from './pages/Develiry/Develiry';
+import Delivery from './pages/Develiry/Develiry';
 
 export const HomeRT = "/";
 export const CardapioRT = "/cardapio";
-export const DeveliryRT = "/cardapio/develiry";
+export const DeliveryRT = "/cardapio/delivery";
 
 export default function Routers(){
   return(
@@ -15,7 +15,7 @@ export default function Routers(){
       <Switch>
         <Route path={HomeRT} exact component={Home} />
         <Route path={CardapioRT} component={Cardapio} />
-        <Route path={DeveliryRT} component={Develiry} />
+        <Route path={DeliveryRT} component={Delivery} />
       </Switch>
     </BrowserRouter>
   );
